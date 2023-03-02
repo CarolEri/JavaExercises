@@ -12,6 +12,6 @@ public class Exercise4implementingInterface implements Exercise4AdvancedArithmet
             }
         }
         System.out.println("The sum is: " + sum);
-        return sum;      
+        return sum;
     }
 }

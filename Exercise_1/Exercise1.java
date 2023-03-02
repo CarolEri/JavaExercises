@@ -35,19 +35,16 @@ public class Exercise1{
 		
 		for (int i = 0; i < numberOfEntries; i++) {
 			String name = scan.nextLine();
-
 			String phone = scan.nextLine();
 
 			phoneBook.put(name, phone);
 		}
 
-        System.out.println("\n------------The output is:------------\n");
-
 		while (scan.hasNext()) {
-			String inputName = scan.nextLine();
+			String nameToLookFor = scan.nextLine();
 
-			if (phoneBook.containsKey(inputName)) {
-				System.out.println(inputName + "=" + phoneBook.get(inputName));
+			if (phoneBook.containsKey(nameToLookFor)) {
+				System.out.println("\n" + nameToLookFor + "=" + phoneBook.get(nameToLookFor));
 			} else {
 				System.out.println("Not found");
 			}
