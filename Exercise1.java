@@ -17,8 +17,8 @@ Sample Output:
 uncle sam=99912222
 Not found
 harry=12299933
- */
 
+*/
 import java.util.Scanner;
 import java.util.HashMap;
 
@@ -53,4 +53,4 @@ public class Exercise1{
 			}
 		}
     }
-}
+} 
