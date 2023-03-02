@@ -28,7 +28,7 @@ public class Exercise1{
         Scanner scan = new Scanner(System.in);
         HashMap<String,String> phoneBook = new HashMap<String,String>();
 
-        System.out.println("\n------Hello, please provide an input here:------\n");
+        System.out.println("\n------Hello, please provide an input here:------");
 
         int numberOfEntries = scan.nextInt();
 		scan.nextLine();
